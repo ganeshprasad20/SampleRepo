@@ -1,4 +1,4 @@
-import urllib.request
+#import urllib.request
 with urllib.request.urlopen('https://www.nexus.ford.com/service/rest/repository/browse/fnv2_private_release_repository/com/ford/ecg/ECG_Bundle_Debug/ECG_Bundle_Debug/') as response:
    html = response.read()
    print (html)
