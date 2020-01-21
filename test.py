@@ -13,8 +13,8 @@ with urllib.request.urlopen('https://www.nexus.ford.com/service/rest/repository/
 # urllib.request.urlretrieve(url, 'C:\\Users\\ga264577\\Desktop\\test\\aa.zip')
 
 #########################################################################################
-
-# import requests
+import os
+import requests
 #
 # url = 'http://gmail.com'
 # user, password = 'ganeshprasad20', 'gan123*#'
